@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #20272f;
+    color: #fdfbfb;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Paleta de colores
+
+Fondo:  #20272f - negro
+Texto: #fdfbfb - blanco
+Verdes: #2cd680 
+
+
+*/
+
+.inicio {
+    display: flex;
+}
+
+.fotoperfil {
+    height: 150px;
+}
+
+.iconos {
+    height: 90px;
+}
