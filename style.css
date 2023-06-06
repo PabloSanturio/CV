@@ -2,12 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #20272f;
+    background-color: #2d3640;
     color: #fdfbfb;
-    font-size: 24px;
+    font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
-
 /* Paleta de colores
 
 Fondo:  #20272f - negro
@@ -16,15 +17,112 @@ Verdes: #2cd680
 
 
 */
+.cv-container   {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 150px;
 
+}
+
+.container-sobreMi  {
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+
+.container-nombre   {
+    margin-bottom: 80px;
+}
+
+.container-contacto {
+    margin-top: 60px;
+}
 .inicio {
-    display: flex;
+     display: flex; 
+     justify-content: space-evenly;
+     align-items: center;
 }
 
 .fotoperfil {
-    height: 150px;
+    height: 25rem;
 }
+
+.nombre {
+    
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.verde  {
+    color:#2cd680;
+}
+
+.verde2 {
+    color:#2cd680;
+    font-size: 2rem;
+}
+
+.sobreMi    {
+    font-weight: 500;
+    font-size: 2rem;
+
+}
+
+.subtitulo {
+border-left: 0.4rem solid #2cd680;
+padding-left: 1.3rem;
+font-weight:400;
+font-size: 3rem;
+
+}
+
+.subtitulo2 {
+ 
+    padding: 1.3rem;
+    font-weight:500;
+    font-size: 3rem;
+    
+    }
 
 .iconos {
     height: 90px;
+    margin-bottom: 10px;
+}
+
+.padding-margin   {
+    padding-left: 30px;
+    margin-left: 60px;
+}
+
+.padding-left1   {
+    padding-left: 90px;
+}
+
+.border {
+    border: 6px solid grey;
+    border-radius: 10px;
+    padding: 60px 30px 20px 30px ;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
+   
+}
+
+.absolute {
+    position: absolute;
+    left: 125px;
+    top: -70px;
+}
+
+.titulo-estudio {
+    font-size: 2rem;
+    font-weight: 500
+}
+
+.estudios-flex  {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto-iconos   {
+    text-align: center;
 }
