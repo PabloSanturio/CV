@@ -9,18 +9,11 @@
     font-weight: 400;
     letter-spacing: 2px;
 }
-/* Paleta de colores
 
-Fondo:  #20272f - negro
-Texto: #fdfbfb - blanco
-Verdes: #2cd680 
-
-
-*/
 .cv-container   {
     margin-left: 8%;
     margin-right: 8%;
-    margin-top: 150px;
+    margin-top: 100px;
 
 }
 
@@ -44,6 +37,13 @@ Verdes: #2cd680
 
 .fotoperfil {
     height: 25rem;
+    
+}
+
+
+
+.relative   {
+    position: relative;
 }
 
 .nombre {
@@ -64,6 +64,7 @@ Verdes: #2cd680
 .sobreMi    {
     font-weight: 500;
     font-size: 2rem;
+    padding-bottom: 20px;
 
 }
 
@@ -84,8 +85,23 @@ font-size: 3rem;
     }
 
 .iconos {
-    height: 90px;
+    height: 70px;
+    margin-top: 10px;
     margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.iconosContacto {
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
 }
 
 .padding-margin   {
@@ -121,8 +137,94 @@ font-size: 3rem;
 .estudios-flex  {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactos  {
+    display: flex;
+    
+    align-items: center;
 }
 
 .texto-iconos   {
     text-align: center;
+}
+
+.item  {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.iconos-flex    {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.padding-texto  {
+    padding-left: 20px;
+}
+
+.botonEnglish   {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+   
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    background-color: #24ba6f;
+}
+
+.botonEnglish:hover {
+    transform: translateY(2px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    background-color: #268d5a;
+  }
+
+
+
+@media (max-width: 1600px) {
+      .iconos   {
+        height: 50px;
+      }
+      .padding-texto    {
+        font-size: 1rem;
+      }
+}
+
+
+@media (max-width: 1100px ) {
+      *{
+        
+        font-size: 1rem;
+       
+      }
+
+      .fotoperfil   {
+        height: 15rem;
+      }
+      
+      .presentacion {
+        font-size: 1.5rem;
+      }
+
+      .iconos-flex  {
+        flex-direction: column;
+      }
+
+      .padding-left1   {
+        padding-left: 0px;
+      }
+
+      .estudios-flex    {
+        justify-content: start;
+      }
 }

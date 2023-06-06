@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,11 +13,16 @@
 </head>
 
 <body>
+
+    <a class="botonEnglish" href="English.html">English
+    </a>
+
     <div class="cv-container">
 
         <div class="inicio">
 
-            <div>
+            <div class="relative">
+
                 <img class="fotoperfil" src="./img/foto.png" alt="Foto de perfil">
             </div>
 
@@ -31,7 +36,8 @@
         </div>
         <section class="padding-left1 container-sobreMi">
             <h2 class="sobreMi verde">Sobre mí.</h2>
-            <p>Soy Pablo Santurio, un desarrollador web apasionado en busca de nuevos desafíos. Me encanta
+            <p class="presentacion">Soy Pablo Santurio, un desarrollador web apasionado en busca de nuevos desafíos y su
+                primera experiencia laboral en el mundo IT. Me encanta
                 trabajar
                 en equipo y enfrentar problemas complejos de manera creativa, siempre buscando soluciones
                 eficientes
@@ -45,11 +51,31 @@
 
         <div class="container-contacto">
             <h3 class="subtitulo contactame">Contacta conmigo!</h3>
-            <section class="iconos-grid">
-                <img class="iconos" src="img/github-removebg-preview.png" alt=""><img class="iconos"
-                    src="img/linkedin.png" alt=""><img class="iconos" src="img/telefono1-removebg-preview.png" alt="">
-                <img class="iconos" src="img/telefono.png" alt="">
-                <img class="iconos" src="img/correo-removebg-preview.png" alt="">
+            <section class="iconos-flex">
+
+                <div> <a href="https://github.com/PabloSanturio" target="_blank"><img class="iconosContacto"
+                            src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt=""> </a> </div>
+
+
+                <div> <a href="https://www.linkedin.com/in/pablo-santurio/" target="_blank"><img class="iconosContacto"
+                            src="https://logodownload.org/wp-content/uploads/2019/03/linkedin-logo-2.png" alt=""></a>
+                </div>
+
+
+                <div class="contactos">
+
+
+
+                    <img class="iconosContacto" src="img/telefono1-removebg-preview.png" alt="">
+                    <p class="padding-texto"> +598 927 435 32</p>
+
+                </div>
+                <div class="contactos"> <img class="iconosContacto" src="img/correo-removebg-preview.png" alt="">
+                    <p class="padding-texto">pablosanturio1@gmail.com</p>
+                </div>
+
+
+
             </section>
         </div>
         <div>
@@ -97,7 +123,7 @@
                 </div>
                 <div class="border estudios-flex">
                     <h2 class="subtitulo2 verde absolute">Estudios</h2>
-                    <div>
+                    <div class="item">
                         <h3 class="verde2">En curso.</h3>
                         <p> <a class="titulo-estudio"
                                 href="https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/">Desarrollo
@@ -105,7 +131,7 @@
 
                     </div>
 
-                    <div>
+                    <div class="item">
                         <h3 class="verde2">Feb. - May. 2023.</h3>
                         <p class="titulo-estudio">Bootcamp Full Stack Web Developer <br><span>Senpai Academy</span></p>
                     </div>
@@ -115,9 +141,10 @@
                 </div>
                 <div class="border">
                     <h2 class="subtitulo2 verde absolute">Exp. Laboral.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cum dicta quod laboriosam. Sit
-                        nobis laboriosam a qui, eum dolorum doloribus magnam molestias odio cumque fugiat autem nam
-                        porro sint!</p>
+                    <div>
+                        <h3 class="verde2">Actual.</h3>
+                        <p class="titulo-estudio">Cencista <br> <span>Instituto Nacional de Estadística</span></p>
+                    </div>
                 </div>
             </section>
         </div>
