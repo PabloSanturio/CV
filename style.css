@@ -154,6 +154,8 @@ font-size: 3rem;
 .item  {
     padding-left: 15px;
     padding-right: 15px;
+    height: 250px;
+    width: 580px;
 }
 
 .iconos-flex    {
