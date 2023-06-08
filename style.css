@@ -155,7 +155,7 @@ font-size: 3rem;
     padding-left: 15px;
     padding-right: 15px;
     height: 250px;
-    width: 580px;
+    width: 580px; 
 }
 
 .iconos-flex    {
@@ -229,4 +229,61 @@ font-size: 3rem;
       .estudios-flex    {
         justify-content: start;
       }
+
+      .item {
+        height: auto;
+        width: auto;
+        padding-bottom: 15px;
+      }
+}
+
+@media (max-width: 660px )
+{
+
+.fotoperfil {
+    height: 11rem;
+
+}
+
+.nombre {
+    font-size: 2.6rem;
+}
+
+.subtitulo  {
+    font-size: 1.4rem;
+}
+
+.padding-margin{
+    margin-left: 8px;
+    padding-left: 10px;
+}
+
+}
+
+.cv-container   {
+    margin-right: 10px;
+    margin-left: 10px;
+margin-top: 90px;
+}
+
+.presentacion   {
+    font-size: 1.16rem;
+}
+
+.container-nombre   {
+    margin-bottom: 0px;
+}
+
+.container-sobreMi  {
+    margin-top: 25px;
+    margin-bottom: 0px ;
+}
+
+.div-contacto   {
+    height: 100px;
+    width: 260px;
+}
+
+.absolute   {
+    left: 15px;
 }
