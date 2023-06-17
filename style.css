@@ -1,3 +1,4 @@
+/* Global */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,81 +11,18 @@
     letter-spacing: 2px;
 }
 
-.cv-container   {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 100px;
 
-}
-
-.container-sobreMi  {
-    margin-top:80px;
-    margin-bottom: 80px;
-}
-
-.container-nombre   {
-    margin-bottom: 80px;
-}
-
-.container-contacto {
-    margin-top: 60px;
-}
-.inicio {
-     display: flex; 
-     justify-content: space-evenly;
-     align-items: center;
-}
-
-.fotoperfil {
-    height: 25rem;
-    
-}
-
-
-
-.relative   {
-    position: relative;
-}
-
-.nombre {
-    
-    font-size: 6rem;
-    font-weight: 700;
-}
-
-.verde  {
+.global__TextoVerde  {
     color:#2cd680;
 }
 
-.verde2 {
-    color:#2cd680;
-    font-size: 2rem;
-}
-
-.sobreMi    {
-    font-weight: 500;
-    font-size: 2rem;
-    padding-bottom: 20px;
-
-}
-
-.subtitulo {
-border-left: 0.4rem solid #2cd680;
-padding-left: 1.3rem;
-font-weight:400;
-font-size: 3rem;
-
-}
-
-.subtitulo2 {
- 
-    padding: 1.3rem;
+.global__Subtitulo {
+     padding: 1.3rem;
     font-weight:500;
-    font-size: 3rem;
-    
+    font-size: 3rem; 
     }
 
-.iconos {
+.global__Iconos {
     height: 70px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -94,79 +32,7 @@ font-size: 3rem;
     
 }
 
-.iconosContacto {
-    height: 70px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-    
-}
-
-.padding-margin   {
-    padding-left: 30px;
-    margin-left: 60px;
-}
-
-.padding-left1   {
-    padding-left: 90px;
-}
-
-.border {
-    border: 6px solid grey;
-    border-radius: 10px;
-    padding: 60px 30px 20px 30px ;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    position: relative;
-   
-}
-
-.absolute {
-    position: absolute;
-    left: 125px;
-    top: -70px;
-}
-
-.titulo-estudio {
-    font-size: 2rem;
-    font-weight: 500
-}
-
-.estudios-flex  {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.contactos  {
-    display: flex;
-    
-    align-items: center;
-}
-
-.texto-iconos   {
-    text-align: center;
-}
-
-.item  {
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 250px;
-    width: 580px; 
-}
-
-.iconos-flex    {
-    margin-top: 90px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.padding-texto  {
-    padding-left: 20px;
-}
+/* Boton de cambio de idioma */
 
 .botonEnglish   {
     text-decoration: none;
@@ -193,11 +59,145 @@ font-size: 3rem;
 
 
 
+/* Contenedor */
+.cv-container   {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 100px;
+
+}
+
+/* Header */
+
+.headerContainer {
+     display: flex; 
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.header__Relative   {
+    position: relative;
+}
+
+
+.header__Relative__Fotoperfil {
+    height: 25rem;
+    
+}
+
+.header__Container__Nombre   {
+    margin-bottom: 80px;
+}
+
+.header__Nombre {
+    
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.header__Alineacion   {
+    padding-left: 30px;
+    margin-left: 60px;
+    border-left: 0.4rem solid #2cd680;
+padding-left: 1.3rem;
+font-weight:400;
+font-size: 3rem;
+}
+
+
+/* Main */
+
+.container-Main  {
+    margin-top:80px;
+    margin-bottom: 80px;  padding-left: 90px;
+}
+
+
+.main__SobreMi    {
+    
+    font-size: 2rem;
+    padding-bottom: 20px;
+
+}
+
+
+/* Contenedor de contacto */
+
+.container-contacto {
+    margin-top: 60px;
+}
+
+
+.contacto__IconosFlex    {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacto__ContenedorIconos  {
+    display: flex;
+    
+    align-items: center;
+}
+
+.contacto__Texto  {
+    padding-left: 20px;
+}
+
+
+/* Sección de carrera */
+
+.carrera__Contenedor {
+    border: 6px solid grey;
+    border-radius: 10px;
+    padding: 60px 30px 20px 30px ;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.carrera__Titulo {
+    position: absolute;
+    left: 125px;
+    top: -70px;
+}
+
+.carrera__Subtitulo {
+    font-size: 2rem;
+    font-weight: 500
+}
+
+.carrera__SubtitulosVerde {
+    color:#2cd680;
+    font-size: 2rem;
+}
+
+/* Tecnologias */
+
+.tecnologias__Textos   {
+    text-align: center;
+}
+
+
+/* Estudios */
+
+.estudios__Item  {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 250px;
+    width: 580px; 
+}
+
+
 @media (max-width: 1600px) {
-      .iconos   {
+      .global__Iconos   {
         height: 50px;
       }
-      .padding-texto    {
+      .contacto__Texto{
         font-size: 1rem;
       }
 }
@@ -210,27 +210,27 @@ font-size: 3rem;
        
       }
 
-      .fotoperfil   {
+      .header__Relative__Fotoperfil   {
         height: 15rem;
       }
       
-      .presentacion {
+      .main__Presentacion {
         font-size: 1.5rem;
       }
 
-      .iconos-flex  {
+      .contacto__IconosFlex  {
         flex-direction: column;
       }
 
-      .padding-left1   {
+      .container-Main  {
         padding-left: 0px;
       }
 
-      .estudios-flex    {
+      .carrera__Contenedor    {
         justify-content: start;
       }
 
-      .item {
+      .estudios__Item {
         height: auto;
         width: auto;
         padding-bottom: 15px;
@@ -240,20 +240,18 @@ font-size: 3rem;
 @media (max-width: 660px )
 {
 
-.fotoperfil {
+.header__Relative__Fotoperfil {
     height: 11rem;
 
 }
 
-.nombre {
+.header__Nombre {
     font-size: 2.6rem;
 }
 
-.subtitulo  {
-    font-size: 1.4rem;
-}
 
-.padding-margin{
+
+.header__Alineacion{
     margin-left: 8px;
     padding-left: 10px;
 }
@@ -264,29 +262,29 @@ font-size: 3rem;
 margin-top: 90px;
 }
 
-.presentacion   {
+.main__Presentacion   {
     font-size: 1.16rem;
 }
 
-.container-nombre   {
+.header__Container__Nombre   {
     margin-bottom: 0px;
 }
 
-.container-sobreMi  {
+.container-Main  {
     margin-top: 25px;
     margin-bottom: 0px ;
 }
 
-.div-contacto   {
+.contacto__ContenedorIconos   {
     height: 100px;
     width: 260px;
 }
 
-.absolute   {
+.carrera__Titulo   {
     left: 15px;
 }
 
-.padding-texto  {
+.contacto__Texto  {
     padding-left: 5px;
 }
 
